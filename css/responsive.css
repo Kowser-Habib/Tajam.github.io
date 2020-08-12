@@ -1,0 +1,274 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+/*@media (max-width: 575.98px) { ... }
+   /*Responsive for 576px to 767.98px device start*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .about_text p {
+        margin-top: -48px;
+    }
+
+    #about_part h3 {
+        text-align: center;
+        color: black;
+    }
+
+    .about_text a {
+        margin-left: 174px;
+    }
+
+    .video_icon {
+        margin-left: 158px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .text-top p {
+        margin-top: -35px;
+    }
+
+    .img {
+        margin-left: 154px;
+    }
+
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        margin-left: 143px;
+    }
+
+    .img-bottom a {
+        margin-left: 185px;
+    }
+
+    .team-left-angle {
+        margin-left: -336px;
+        margin-top: 120px;
+    }
+
+    .team-right-angle {
+        margin-left: 193px;
+    }
+
+    .footer-top-left {
+        padding-left: 144px;
+    }
+
+    .footer-top-middle h5,
+    i {
+        padding-left: 145px;
+    }
+
+    .h6,
+    h6 {
+        font-size: 1rem;
+        margin-left: 139px;
+    }
+
+    .footer-top-right h6 {
+        margin-left: 136px;
+    }
+
+    .form-inline .form-control {
+        margin-left: -161px;
+    }
+
+    .social-icon {
+        margin-left: 141px;
+    }
+
+    .footer-bottom-left {
+        margin-left: 121px;
+    }
+
+    .footer-bottom-right h6 {
+        margin-left: 138px;
+    }
+
+    .navbar-toggler-icon {
+        background: blue;
+    }
+
+    .form-inline .form-control {
+        margin-left: 120px;
+    }
+
+    .slick-dots {
+        margin-left: 0px;
+    }
+
+    .banner_text {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+
+    .slick-dots {
+        margin-bottom: -50px;
+    }
+
+    #about_part h3 {
+        margin-bottom: 20px;
+    }
+
+    #our_work {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+/*Responsive for 576px to 767.98px device end*/
+/*Responsive for 768px to 991.98px device start*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #our_work {
+        height: 100%;
+    }
+    #about_part h3 {
+        margin-left: 227px;
+    }
+
+    .about_text p {
+        padding: 5px 0px;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: green;
+    }
+
+    .about_text a {
+        margin-left: 277px;
+    }
+
+    .video_icon {
+        margin-left: 254px;
+    }
+
+    .text-top h3 {
+        margin-left: 20px;
+        margin-bottom: -20px;
+    }
+
+    .row {
+        padding-bottom: 16px;
+        margin-top: -6px;
+    }
+
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        padding-left: 260px;
+    }
+
+    .img-bottom a {
+        margin-left: 288px;
+    }
+
+    .team-left-angle {
+        margin-left: -252px;
+        margin-top: 50px;
+    }
+
+    .team-right-angle {
+        margin-left: -245px;
+        margin-top: 42px;
+    }
+
+    .total-footer {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-top-middle h5,
+    i {
+        padding-bottom: 9px;
+    }
+
+    .footer-bottom-left {
+        margin-left: 6px;
+    }
+
+    #footer-part {
+        background-size: cover;
+    }
+
+    .form-inline .form-control {
+        margin-left: 221px;
+    }
+
+    .social-icon {
+        margin-left: 245px;
+    }
+
+    .footer-bottom-left {
+        margin-left: 229px;
+    }
+
+    .footer-bottom-right h6 {
+        margin-right: 179px;
+    }
+
+    .footer-top-left {
+        margin-left: -70px;
+    }
+
+    .footer-top-left {
+        margin-right: 34px;
+    }
+
+    .footer-top-middle h5,
+    i {
+        margin-left: -41px;
+    }
+
+    .total-footer {
+        padding-bottom: 0px;
+    }
+}
+
+/*Responsive for 768px to 991.98px device end*/
+/*Responsive for 992px to 1199.98px device start*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img-bottom a {
+        margin-top: 70px;
+        display: block;
+        margin-bottom: 70px;
+        margin-left: 443px;
+        text-decoration: none;
+        border: 2px solid;
+        width: 116px;
+        height: 37px;
+        padding: 2px;
+        text-align: center;
+    }
+
+    .team-right-angle {
+        left: 800px;
+    }
+
+    .team-right-angle {
+        left: 790px;
+    }
+
+    .team-left-angle {
+        left: 190px;
+    }
+
+    .form-inline .form-control {
+        margin-left: -20px;
+    }
+
+    #our_work p {
+        padding-top: 0px;
+    }
+}
+
+/*Responsive for 992px to 1199.98px device end*/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
